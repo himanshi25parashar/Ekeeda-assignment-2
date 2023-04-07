@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Anuphan:wght@200;300;400;500;600;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+  .container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px;
+    min-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+ .container .left{
+    position: relative;
+    background: #030608;
+    padding: 40px;
+    /* border-radius: 107px;
+      */
+} 
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile .image{
+    position: relative;
+    width: 200px;
+    height: 212px;
+    border-radius: 50%;
+    overflow: hidden ;
+}
+.profile .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 127%;
+    object-fit: cover;
+}
+.profile h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-transform: uppercase;
+}
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.coninfo{
+    padding-top: 40px;
+    
+}
+.connect{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.coninfo ul{
+    position: relative;
+}
+.coninfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px, 0;
+    cursor: pointer;
+}
+.coninfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+ .coninfo ul li span{
+    color: white;
+    font-weight: 300;
+ }
+ .coninfo.edu li{
+    margin-bottom: 15px;
+ }
+ .coninfo.edu h5{
+    color: #03a9f4;
+    font-weight: 500;
+ }
+ .coninfo.edu h4:nth-child(even){
+    color: white;
+    font-weight: 500;
+ }
+ .coninfo.edu h4{
+    color: white;
+    font-weight: 300;
+ }
+ .coninfo.lang .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: flex;
+    margin-top: 5px;
+ }
+ .coninfo.lang .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+ }
+.container .right{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+.self{
+    margin-bottom: 50px;
+}
+.connect2{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: #012738;
+    text-decoration: underline;
+    text-transform: uppercase;
+} 
+p{
+    color: #001018;
+}
+.self .squre {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.self .squre .year{
+    min-width: 150px;
+}
+.self .squre .year h5{
+    text-transform: uppercase;
+    color: #1d343f;
+    font-weight: 600;
+}
+.self .squre .text h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+.skills .squre{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .squre h4{
+    text-transform: uppercase;
+    color: #103572;
+    font-weight: 800;
+    font-size: 9px;
+
+}
+.skills .squre h4 .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #041447; 
+    padding-left: 20px;
+}
+ .skills .squre .percent div{
+    position: absolute;
+    top: 6px;
+    left: 2px;
+    height: 30%;
+    margin-left: 52px;
+    background: #5886e9; 
+}
+ 
+
+
